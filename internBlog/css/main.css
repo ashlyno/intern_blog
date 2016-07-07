@@ -148,7 +148,7 @@ footer {
 	}
 
 	.heading {
-		background-image: url("../img/background-sm.jpg");
+		background-image: url("../img/gotData.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: right;
@@ -167,7 +167,7 @@ footer {
 
 @media screen and (min-width: 922px) {
 	.heading {
-		background-image: url("../img/background-md.jpg");
+		background-image: url("../img/gotData.jpg");
 	}
 	#title {
 		font-size: 4em;
@@ -175,7 +175,7 @@ footer {
 }
 @media screen and (min-width: 1200px) {
 	.heading {
-		background-image: url("../img/background-lg.jpg");
+		background-image: url("../img/gotData.jpg");
 	}
 }
 }
