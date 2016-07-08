@@ -1,0 +1,17 @@
+<div class="container-fluid heading">
+	<h1 id="title">The Intern<br/>Blogs</h1>	
+	<p class="hidden-xs">Tableau: Through The Eyes Of An Intern</p>
+</div>	
+
+<div class="container-fluid form-inline pull-right">
+	<label for="search"><i class="fa fa-search"></i></label>
+	<input name="query" placeholder="Search" id="search" ng-model="searchQuery">
+</div>
+
+<div class="container-fluid">
+	<div class="item col-md-3" ng-repeat="product in products| orderBy:sortingCriteria | filter:searchQuery">
+		<h2><a ui-sref="detail({id: product.id})">{{product.name}}</a></h2>
+		<p>{{product.description}}</p>
+		<p>Price: {{product.price | currency:"$":2}}</p>
+	</div>
+</div>

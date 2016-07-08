@@ -14,6 +14,11 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 			templateUrl: 'partial/about.html',
 			controller: 'AboutCtrl'
 		})
+		.state('blogs', {
+			url: '/blogs',
+			templateUrl: 'partial/blogs.html',
+			controller: 'BlogsCtrl'
+		})
 
 		$urlRouterProvider.otherwise('/'); //other route
 
@@ -26,6 +31,11 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 }])
 
 .controller('AboutCtrl', ['$scope', '$http', function($scope, $http) {
+
+
+}])
+
+.controller('BlogsCtrl', ['$scope', '$http', function($scope, $http) {
 
 
 }])
