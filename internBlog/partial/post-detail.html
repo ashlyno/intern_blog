@@ -10,10 +10,10 @@
 				<h2>{{post.name}}</h2>
 				<img ng-src="{{post.image}}" alt="image of coffee bean" height="225">
 				<p>{{post.description}}</p>
-				<h2>About The Grower | {{post.grower.name}}</h2>
-				<img ng-src="{{post.grower.image}}" alt="image of the grower of the bean" height="225">
-				<p>{{post.grower.description}}</p>
-				<a ng-href="{{post.grower.externalUrl}}">Link to their website</a>
+				<h2>About The Grower | {{post.full.name}}</h2>
+				<img ng-src="{{post.full.image}}" alt="image of the grower of the bean" height="225">
+				<p>{{post.full.description}}</p>
+				<a ng-href="{{post.full.externalUrl}}">Link to their website</a>
 			</div>
 		</div>
 	</div>
