@@ -19,6 +19,11 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 			templateUrl: 'partial/blog.html',
 			controller: 'BlogCtrl'
 		})
+		.state('detail', {
+			url: '/blog/{id}',
+			templateUrl: 'partial/post-detail.html',
+			controller: 'DetailCtrl'
+		})
 
 		$urlRouterProvider.otherwise('/'); //other route
 
@@ -42,5 +47,16 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 	$http.get('data/posts.json').then(function(response) {
  		$scope.posts = response.data;
  	});	
+
+}])
+
+.controller('DetailCtrl', ['$scope', '$http', '$filter', '$stateParams', function($scope, $http, $filter, $stateParams) {
+	$http.get('data/posts.json').then(function(response) {
+ 		$scope.posts = response.data;
+ 		$scope.post = $filter('filter')($scope.posts, { 
+      	id: $stateParams.id 
+   		}, true)[0];
+
+ 	});
 
 }])
