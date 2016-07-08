@@ -14,10 +14,10 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 			templateUrl: 'partial/about.html',
 			controller: 'AboutCtrl'
 		})
-		.state('blogs', {
-			url: '/blogs',
+		.state('blog', {
+			url: '/blog',
 			templateUrl: 'partial/blog.html',
-			controller: 'BlogsCtrl'
+			controller: 'BlogCtrl'
 		})
 
 		$urlRouterProvider.otherwise('/'); //other route
