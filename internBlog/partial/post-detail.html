@@ -16,24 +16,5 @@
 				<a ng-href="{{post.grower.externalUrl}}">Link to their website</a>
 			</div>
 		</div>
-			<div class="col-md-4">
-				<h3>Purchase {{post.name}}</h3>
-				<p>{{post.price | currency:"$":2}} per pound</p>
-			    <form class="form-horizontal" name ="payForm" novalidate>
-      				<div class="form-group">
-						<label for="quantity">Quantity:</label>
-						<input name="quantity" id="quantity" class="form-control" type = "number" ng-model="post.quantity" required maxlength="2" integer>
-
-						<label for="grind">Post:</label>
-						<select name="grind" id="grind" ng-model="post.grind" required>
-
-							<option ng-repeat="grind in post.categories" value="{{grind}}">{{grind}}</option>
-						</select>
-
-						<button type="submit" class="btn btn-primary" ng-disabled="payForm.$invalid" ui-sref="cart"
-                                ng-click="savePurchase(post)">Add to Cart</button>
-					</div>
-				</form>
-			</div>
-		</div>	
 	</div>
+</div>	

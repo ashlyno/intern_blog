@@ -1,23 +1,24 @@
 [
   {
-    "id": "week1-3",
-    "name": "Week 1 - Week 3",
-    "description": "From my first day, to completing my Bronze certification",
-    "image": "img/gotData.jpg",
-    "workbook": 14,
-    "categories": ["demo", "interview", "test"],
-    "full post": {
-      "name": "My First Weeks",
+    "id": "post-1",
+    "name": "Week 1-3",
+    "description": "My first week in the office",
+    "image": "office.jpg",
+    "price": 14,
+    "categories": ["blends", "dark roast", "espresso"],
+    "full": {
+      "name": "The Beginning",
       "description": "As of tomorrow, I will have completed my first three weeks at Tableau. It feels like just yesterday I was getting picked up by Daren and Cameron, my mentors, at the main office for my first day. I was so excited getting to meet everyone and seeing where I would be spending my summer. I couldn't believe I even got my own desk!! Immediately I started trying to absorb all the information I could about Tableau as I wanted to be able to be the best intern I could be. Apparently I did a good job studying as I passed my Bronze certification this week. It's so relieving to have that done and now I can start learning even more complex things in Tableau. 
 
-      Before leaving this summer, I have a few goals I want to accomplish. 
-        1. Complete Silver Certification: I want to complete this by the end of my time here as I want to be as fluent in this software as the rest of the Product Consultants. 
-        2. Create Something Cool: I've seen the amazing visualizations others have been able to accomplish in Tableau and I hope I can create something great too. One thing I believe will really help me create beautiful dashboards is learning more on calculations, so I'm going to focus on getting good on those. 
-        3. Have Fun!  I want to not only learn new skills, I want to have an enjoyable experience. Already I've realized this will be my easiest goal to accomplish. Everyone has been so welcoming and kind to me, as well as light hearted and good-humored. I look forward to coming to work every day.
+Before leaving this summer, I have a few goals I want to accomplish. 
+  1. Complete Silver Certification: I want to complete this by the end of my time here as I want to be as fluent in this software as the rest of the Product Consultants. 
+  2. Create Something Cool: I've seen the amazing visualizations others have been able to accomplish in Tableau and I hope I can create something great too. One thing I believe will really help me create beautiful dashboards is learning more on calculations, so I'm going to focus on getting good on those. 
+  3. Have Fun!  I want to not only learn new skills, I want to have an enjoyable experience. Already I've realized this will be my easiest goal to accomplish. Everyone has been so welcoming and kind to me, as well as light hearted and good-humored. I look forward to coming to work every day.
 
-      I want to make sure to thank everyone for a great first couple weeks. I was apprehensive about these weeks but I quickly realized I had nothing to worry about. Everyone has been so kind and welcoming to me and I am so appreciative of that. Big thank you to my mentors Daren and Cameron, you have both gone out of your way to help me in so many ways! I'm lucky to have you guys around to help me! Also, special thanks to those who listened to my mock bronze calls, you all helped me pass my demo today! Thank you :)",
-      "image": "img/growers/la-petisa.jpg",
-      "externalUrl": "https://www.sweetmarias.com/product/costa-rica-helsar--la-petisa"
+I want to make sure to thank everyone for a great first couple weeks. I was apprehensive about these weeks but I quickly realized I had nothing to worry about. Everyone has been so kind and welcoming to me and I am so appreciative of that. Big thank you to my mentors Daren and Cameron, you have both gone out of your way to help me in so many ways! I'm lucky to have you guys around to help me! Also, special thanks to those who listened to my mock bronze calls, you all helped me pass my demo today! Thank you :)
+",
+      "image": "img/office.jpg",
+      "externalUrl": "https://www.tableau.com"
     }
-  }
-  ]
+  } 
+]
