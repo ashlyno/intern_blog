@@ -88,14 +88,14 @@ svg {
 #svg_brown {
   fill: #bc6026; }
 
-#cafeInfo {
+#welcome {
 	text-align: center;
 	background-color: #dbdce3;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 }
 
-#cafeInfo img {
+#welcome img {
 	border-radius: 5px;
 }
 
