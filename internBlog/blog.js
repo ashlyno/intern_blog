@@ -16,7 +16,7 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 		})
 		.state('blogs', {
 			url: '/blogs',
-			templateUrl: 'partial/blogs.html',
+			templateUrl: 'partial/blog.html',
 			controller: 'BlogsCtrl'
 		})
 
@@ -36,11 +36,11 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 }])
 
 .controller('BlogsCtrl', ['$scope', '$http', function($scope, $http) {
-	$scope.blogs = [];
+	$scope.posts = [];
 	$scope.sortingCriteria = 'name';
 
-	$http.get('data/blogs.json').then(function(response) {
- 		$scope.blogs = response.data;
+	$http.get('data/posts.json').then(function(response) {
+ 		$scope.posts = response.data;
  	});	
 
 }])
