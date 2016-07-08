@@ -8,13 +8,22 @@
 		<div class="col-md-8">
 			<div class = "item">
 				<h2>{{post.name}}</h2>
-				<img ng-src="{{post.image}}" alt="image of coffee bean" height="225">
-				<p>{{post.description}}</p>
-				<h2>About The Grower | {{post.full.name}}</h2>
-				<img ng-src="{{post.full.image}}" alt="image of the grower of the bean" height="225">
+				<img ng-src="{{post.image}}" alt="image of coffee bean" height="225" align="left">
 				<p>{{post.full.description}}</p>
-				<a ng-href="{{post.full.externalUrl}}">Link to their website</a>
+				<a ng-href="https://public.tableau.com/profile/ashlyn.opgrande#!/">Link to My Tableau Public Website</a>
 			</div>
+		</div>
+		<div class="col-md-4">
+			<div class = "item">
+				<h2>{{post.workbooks.workbook[0].name}}</h2>
+				<p>{{post.workbooks.workbook[0].description}}</p>
+				<a ng-href="{{post.workbooks.workbook[0].externalUrl}}">{{post.workbooks.workbook[0].name}}</a>
+			</div>
+			<div class = "item">
+				<h2>{{post.workbooks.workbook[1].name}}</h2>
+				<p>{{post.workbooks.workbook[1].description}}</p>
+				<a ng-href="{{post.workbooks.workbook[1].externalUrl}}">{{post.workbooks.workbook[1].name}}</a>
+			</div>	
 		</div>
 	</div>
 </div>	
