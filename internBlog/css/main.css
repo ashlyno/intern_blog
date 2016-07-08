@@ -113,6 +113,10 @@ dd {
 	width: 2em;
 	height: 2em;
 }
+.map-pic {
+	max-height: 350px;
+	max-width: 250px;
+}
 
 #story {
 	background-color: #dbdce3;
@@ -148,7 +152,7 @@ footer {
 	}
 
 	.heading {
-		background-image: url("../img/gotData.jpg");
+		background-image: url("../img/painting-sm.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: right;
@@ -167,7 +171,7 @@ footer {
 
 @media screen and (min-width: 922px) {
 	.heading {
-		background-image: url("../img/gotData.jpg");
+		background-image: url("../img/painting-md.jpg");
 	}
 	#title {
 		font-size: 4em;
@@ -175,7 +179,7 @@ footer {
 }
 @media screen and (min-width: 1200px) {
 	.heading {
-		background-image: url("../img/gotData.jpg");
+		background-image: url("../img/painting.jpg");
 	}
 }
 }
