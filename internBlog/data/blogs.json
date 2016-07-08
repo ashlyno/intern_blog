@@ -3,10 +3,10 @@
     "id": "week1-3",
     "name": "Week 1 - Week 3",
     "description": "From my first day, to completing my Bronze certification",
-    "image": "img/beans/espresso.jpg",
+    "image": "img/gotData.jpg",
     "workbook": 14,
     "categories": ["demo", "interview", "test"],
-    "Full Post": {
+    "full post": {
       "name": "My First Weeks",
       "description": "As of tomorrow, I will have completed my first three weeks at Tableau. It feels like just yesterday I was getting picked up by Daren and Cameron, my mentors, at the main office for my first day. I was so excited getting to meet everyone and seeing where I would be spending my summer. I couldn't believe I even got my own desk!! Immediately I started trying to absorb all the information I could about Tableau as I wanted to be able to be the best intern I could be. Apparently I did a good job studying as I passed my Bronze certification this week. It's so relieving to have that done and now I can start learning even more complex things in Tableau. 
 
@@ -18,20 +18,6 @@
       I want to make sure to thank everyone for a great first couple weeks. I was apprehensive about these weeks but I quickly realized I had nothing to worry about. Everyone has been so kind and welcoming to me and I am so appreciative of that. Big thank you to my mentors Daren and Cameron, you have both gone out of your way to help me in so many ways! I'm lucky to have you guys around to help me! Also, special thanks to those who listened to my mock bronze calls, you all helped me pass my demo today! Thank you :)",
       "image": "img/growers/la-petisa.jpg",
       "externalUrl": "https://www.sweetmarias.com/product/costa-rica-helsar--la-petisa"
-    }
-  },
-  {
-    "id": "roasters-choice",
-    "name": "Roaster's Choice",
-    "description": "A delicious medium-bodied blend of beans from around the world, or whatever we have left over after we sell the other stuff.",
-    "image": "img/beans/roasters.jpg",
-    "price": 13.5,
-    "categories": ["blends"],
-    "grower": {
-      "name": "Finca Alaska",
-      "description": "Los Crestones is an area of unique rocky outcroppings in the area of the Chirripó National Park, a zone called La Piedra de Rivas. It is also a minor region of coffee production adjacent to the parklands, in quite a different zone than the major areas one might be familiar with; Tarrazu, Central Valley, or the Western Valley regions. This lot was a 2014 crop selection from the farm, 'Finca Alaska', that is very unique considering its 'off-the-radar' location on the slopes of the country's highest peak, Chirripo. Finca Alaska is actually made up of several small plots of land dotting the hillside - Duranos, La Cima, Montinales, Aguacate, and a few others, including El Llano. Los Crestones micro-mill is run by a coffee producer group, sharing mill, drying patios, and a newly purchased dry-mill (allowing them to re-use parchment skin) but each farm processes their coffees separately. Finca Alaska is owned by Asdrubal Acuña Hernández, one of the founding members of the group. This lot is from right around 1700 meters and almost solely planted in Caturra.",
-      "image": "img/growers/finca-alaska.jpg",
-      "externalUrl": "https://www.sweetmarias.com/product/costa-rica-alaska-lote-el-llano"
     }
   }
   ]
