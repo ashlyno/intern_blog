@@ -9,9 +9,9 @@
 </div>
 
 <div class="container-fluid">
-	<div class="item col-md-3" ng-repeat="product in products| orderBy:sortingCriteria | filter:searchQuery">
-		<h2><a ui-sref="detail({id: product.id})">{{product.name}}</a></h2>
-		<p>{{product.description}}</p>
-		<p>Price: {{product.price | currency:"$":2}}</p>
+	<div class="item col-md-3" ng-repeat="blog in blogs| orderBy:sortingCriteria | filter:searchQuery">
+		<h2><a ui-sref="detail({id: blog.id})">{{blog.name}}</a></h2>
+		<p>{{blog.description}}</p>
+		<p>Workbooks: {{blog.workbook}}</p>
 	</div>
 </div>
