@@ -14,6 +14,11 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 			templateUrl: 'partial/about.html',
 			controller: 'AboutCtrl'
 		})
+		.state('accomplishments', {
+			url: '/accomplishments',
+			templateUrl: 'partial/accomplishments.html',
+			controller: 'AccomplishCtrl'
+		})
 		.state('blog', {
 			url: '/blog',
 			templateUrl: 'partial/blog.html',
@@ -39,6 +44,10 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 
 
 }])
+.controller('AccomplishCtrl', ['$scope', '$http', function($scope, $http) {
+
+
+}])
 
 .controller('BlogsCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.posts = [];
@@ -56,7 +65,6 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
  		$scope.post = $filter('filter')($scope.posts, { 
       	id: $stateParams.id 
    		}, true)[0];
-
  	});
 
 }])
