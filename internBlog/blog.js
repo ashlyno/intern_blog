@@ -17,7 +17,7 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 		.state('accomplishments', {
 			url: '/accomplishments',
 			templateUrl: 'partial/accomplishments.html',
-			controller: 'AccomplishCtrl'
+			controller: 'AccomplishmentsCtrl'
 		})
 		.state('blog', {
 			url: '/blog',
@@ -45,7 +45,7 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 
 }])
 
-.controller('AccomplishCtrl', ['$scope', '$http', function($scope, $http) {
+.controller('AccomplishmentsCtrl', ['$scope', '$http', function($scope, $http) {
 
 
 }])
