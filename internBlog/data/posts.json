@@ -13,8 +13,7 @@
             {
           "workbook":
             [
-              {"name": "Interview Workbook", "description": "My very first workbook, created for my interview process", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
-              {"name": "Interview Workbook 2", "description": "My very second workbook, created for my interview process", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"}
+              {"name": "Interview Workbook", "description": "My very first workbook, created for my interview process", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"}
             ]
     }
   },
@@ -32,7 +31,8 @@
             {
               "workbook":
               [
-          {"name": "Layered Map","description": "Created a Layered Map using Superstore","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"}
+          {"name": "Layered Map","description": "Created a Layered Map using Superstore","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
+          {"name": "Top Customer Map", "description": "Workbook showing top customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
         ]
     }
   } 
