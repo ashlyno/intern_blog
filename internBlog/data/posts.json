@@ -13,8 +13,7 @@
             {
           "workbook":
             [
-              {"name": "Interview Workbook", "description": "My very first workbook, created for my interview process", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
-               {"name": "Customer Map", "description": "Shows best customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
+              {"name": "Interview Workbook", "description": "My very first workbook, created for my interview process", "externalUrl": "https://public.tableau.com/profile/publish/InterviewWorkbook/Story1#!/publish-confirm"}
             ]
     }
   },
