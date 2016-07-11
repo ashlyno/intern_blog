@@ -44,6 +44,7 @@ angular.module('BlogApp', ['ngSanitize', 'ui.router', 'ui.bootstrap']) //ngSanit
 
 
 }])
+
 .controller('AccomplishCtrl', ['$scope', '$http', function($scope, $http) {
 
 
