@@ -18,6 +18,24 @@
     }
   },
   {
+    "id": "post-3",
+    "name": "Equine Sales Tableau Project",
+    "description": "My main Tableau project I am working on during my internship",
+    "image": "img/dashboard.jpg",
+    "number": 3,
+    "full": {
+      "name": "Equine Sales Tableau Project",
+      "description": "During my first week at my internship, my mentor assigned me the task of creating a Tableau workbook where I analyzed data from a horse sales website. Because of my passion for horses, he thought this would be a great way for me to start exploring and using Tableau. I started with a very basic data set and a simple workbook. It simply looked at the number of horses by breed. From there,  I began adding things like the amount of sales and then the average listing price per horse. It was interesting to see that the most common breed of horse for sale was Quarter horse, which isn't surprising. Also the average prices were highest among breeds used for showing. I started asking more questions by looking at the ages of the horses for sale. I then added average temperaments by the breed and also the average sizes by breed. I added filters and menus in order to look at the categories based on the breed. One of my favorite features of the dashboard is that you can even see how the price of the horses fluctuates when you click to the look at certain years. I started trying to add more features to my dashboard by even including a parameter that allows users to select between different graphs. As I get better with Tableau, I hope to add even more useful features."
+    },
+    "workbooks": 
+            {
+              "workbook":
+              [
+          {"name": "Horse Sales","description": "Dashboard that shows horse sales in the US", "externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
+        ]
+    }
+  },
+  {
     "id": "post-2",
     "name": "Week 1-3",
     "description": "My first week in the office",
@@ -33,24 +51,6 @@
               [
           {"name": "Layered Map","description": "Created a Layered Map using Superstore","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
           {"name": "Customer Map", "description": "Shows best customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
-        ]
-    }
-  },
-  {
-    "id": "post-3",
-    "name": "Equine Sales Tableau Project",
-    "description": "My main Tableau project I am working on during my internship",
-    "image": "img/dashboard.jpg",
-    "number": 3,
-    "full": {
-      "name": "Equine Sales Tableau Project",
-      "description": "During my first week at my internship, my mentor assigned me the task of creating a Tableau workbook where I analyzed data from a horse sales website. Because of my passion for horses, he thought this would be a great way for me to start exploring and using Tableau. I started with a very basic data set and a simple workbook. It simply looked at the number of horses by breed. From there,  I began adding things like the amount of sales and then the average listing price per horse. It was interesting to see that the most common breed of horse for sale was Quarter horse, which isn't surprising. Also the average prices were highest among breeds used for showing. I started asking more questions by looking at the ages of the horses for sale. I then added average temperaments by the breed and also the average sizes by breed. I added filters and menus in order to look at the categories based on the breed. One of my favorite features of the dashboard is that you can even see how the price of the horses fluctuates when you click to the look at certain years. I started trying to add more features to my dashboard by even including a parameter that allows users to select between different graphs. As I get better with Tableau, I hope to add even more useful features."
-    },
-    "workbooks": 
-            {
-              "workbook":
-              [
-          {"name": "Horse Sales","description": "Dashboard that shows horse sales in the US","externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
         ]
     }
   }
