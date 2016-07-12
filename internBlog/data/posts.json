@@ -21,7 +21,7 @@
     "id": "post-3",
     "name": "Equine Sales Tableau Project",
     "description": "My main Tableau project I am working on during my internship",
-    "image": "img/dashboard.jpg",
+    "image": "img/office.jpg",
     "number": 3,
     "full": {
       "name": "Equine Sales Tableau Project",
@@ -31,7 +31,7 @@
             {
               "workbook":
               [
-          {"name": "Horse Sales","description": "Dashboard that shows horse sales in the US", "externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
+          {"name": "Horse Sales", "description": "Dashboard that shows horse sales in the US", "externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
         ]
     }
   },
@@ -49,7 +49,7 @@
             {
               "workbook":
               [
-          {"name": "Layered Map","description": "Created a Layered Map using Superstore","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
+          {"name": "Layered Map", "description": "Created a Layered Map using Superstore","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/layered_map/Sheet1"},
           {"name": "Customer Map", "description": "Shows best customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
         ]
     }
