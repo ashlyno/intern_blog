@@ -35,5 +35,24 @@
           {"name": "Customer Map", "description": "Shows best customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
         ]
     }
-  }  
+  },
+  {
+    "id": "post-3",
+    "name": "Equine Sales Tableau Project",
+    "description": "My main Tableau project I am working on during my internship",
+    "image": "img/dashboard.jpg",
+    "number": 3,
+    "full": {
+      "name": "Equine Sales Tableau Project",
+      "description": "During my first week at my internship, my mentor assigned me the task of creating a dashboard using data from a horse sales website. Because of my passion for horses, he thought this would be a great way for me to get to experience and use Tableau. I started out creating something simple, but progressively grew to creating something more and more complex. Now I have even included parameters to create options for choosing different types of graph and images that change based on which breed of horse the user selects."
+    },
+    "workbooks": 
+            {
+              "workbook":
+              [
+          {"name": "Horse Sales in the US","description": "Dashboard that shows horse sales in the US","externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
+        ]
+    }
+  }
+
 ]
