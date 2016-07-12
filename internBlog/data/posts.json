@@ -50,7 +50,8 @@
             {
               "workbook":
               [
-          {"name": "Horse Sales in the US","description": "Dashboard that shows horse sales in the US","externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
+           {"name": "Horse Sales in the US","description": "Dashboard that shows horse sales in the US","externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"},
+           {"name": "Horse Sales in the US","description": "Dashboard that shows horse sales in the US","externalUrl": "https://public.tableau.com/profile/publish/horseSales-1/Dashboard1#!/publish-confirm"}
         ]
     }
   }
