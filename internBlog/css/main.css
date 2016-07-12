@@ -129,6 +129,12 @@ dd {
 	border-radius: 5px;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 footer {
 	background-color: #afb3c2;
 	border-top: 3px solid #d87e28;
