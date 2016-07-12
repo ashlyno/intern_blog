@@ -9,9 +9,9 @@
 </div>
 
 <div class="container-fluid">
-	<div class="item col-md-3" ng-repeat="post in posts| orderBy:sortingCriteria | filter:searchQuery">
+	<div class="item col-md-3" ng-repeat="post in posts| orderBy:sortingCriteria | filter:searchQuery" >
 		<h2><a ui-sref="detail({id: post.id})">{{post.name}}</a></h2>
-		<img ng-src="{{post.image}}" alt="image" height="180" class="center-block">
+		<img ng-src="{{post.image}}" style="max-height: 200px"class="center-block img-responsive" src="http://placehold.it/800x400" height="100">
 		<p>{{post.description}}</p>
 	</div>
 </div>
