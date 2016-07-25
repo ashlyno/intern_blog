@@ -53,5 +53,22 @@
           {"name": "Customer Map", "description": "Shows best customers in Superstore", "externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/CustomerMaps/2_Challenge"}
         ]
     }
+  },
+  {
+    "id": "post-4",
+    "name": "Boot Camp",
+    "description": "Attending Tableau Boot Camp",
+    "image": "img/bootcamp16.jpg",
+    "number": 4,
+    "full": {
+      "name": "Bootcamp",
+      "description": "I pushed my laptop and notepad into my Tableau backpack and looked around my desk to make sure I had everything I would need for the day. This would be my first day of Tableau Boot Camp, the company wide training where new hires learn all things Tableau. Everyone from all over the world who would be working for Tableau would attend this boot camp for the next two weeks, including people from as far as Australia and Japan. I was excited to attend as people around the office told me how much fun I would be having and all the prizes they would be giving and even happy hours! I grabbed my backpack and started heading to the building where we would be having our first event of the camp, team lunch. Luckily, another new PC would also be attending boot camp with me. As she just graduated from college, I was happy to have someone close in age to me to have as a buddy for the camp. The first lunch was awkward and people were forcing conversations as most were exhausted from their long trips to Seattle and it was even a majority of peoples first day at Tableau. However, after a few happy hours and other trainings, the awkwardness and time zone offset subsided. The meetings were fun and jokes were made, but we all helped and guided each other throughout the rest of the weeks. Some of my favorite courses were about Server, as I wanted to gain more knowledge in this area and felt it would prepare me for deep technical questions. I also got the chance to meet Paulina and Midori two other interns on the Sales and Marketing Team. We really enjoyed getting to spend time together and talk about our experiences being an intern together. In the end, one of my favorite aspects of the boot camp was that I felt very much like I was an actual full time employee and not just an intern. Tableau does a great job of making interns get actual experience being full time but still making it fun. Overall, it was a great experience getting to learn so much about so many aspects of the company. I feel like I walked away with so much knowledge, new connections, and new friends because of the fun and helpful trainings."
+    },
+    "workbooks": 
+            {
+              "workbook":
+              [
+        ]
+    }
   }
 ]
