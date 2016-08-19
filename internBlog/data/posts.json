@@ -90,6 +90,24 @@
     }
   },
   {
+    "id": "post-7",
+    "name": "First Call",
+    "description": "Leading my very first calls",
+    "image": "img/fremont.jpg",
+    "number": 7,
+    "full": {
+      "name": "Leading my very first calls",
+      "description": "Today I was able to lead my first ever call! With my silver certification and practicing my demos all week, I felt ready. I woke up extra early this morning to make sure I was fully prepared for my 8am call. I parked my car and started heading towards the office, replaying the talk tracks to the demos in my head. I really enjoy these early mornings where everyone is still waking up and the office is quiet. At my desk, I reached out to Jordan for any last minute tips, as he has been helping me prepare for silver and would also be shadowing my first call. The demo is simple, just running through a slide show of examples of bad and good dashboarding techniques. Nathan, the sales rep, introduced me and let me take control of the demo. As I began the presentation, I was feeling confident until I looked at the clock. The demo was taking a shorter amount of time than I expected. I tried to slow things down, but I ended up finishing quite early. However, it turned out to be okay since these customers were very interactive and had a good amount of questions. My first question, which I hadn’t realized at the time, would be from one of the customers who was the hardest to impress. He started to argue and ask questions about pie charts. I went through the all but familiar talk track of why a pie chart is visually harder to view and Tableau Best Practices, but this customer wasn't satisfied. Eventually, Nathan talked to him and I brought up tree maps and that they may be a good alternative. Finally, I felt like we had settled that issue. The questions kept coming and I was feeling like my demo was going poorly. After the call, which finished well, I talked to Jordan to discuss. I was surprised to hear that he was actually very enthusiastic about my demo. Nathan also was impressed considering it was my first demo ever. I guess it's true that we are our biggest critic. Relieved to have my first call out of the way, I sank into my desk chair. I couldn't relax for too long, however, since my second call ever would be in one hour! This one would only be a bronze demo and it ended up going very smoothly. These customers were the complete opposite of the last group and didn’t ask any questions whatsoever. I'm excited to be part of even more calls and get to share Tableau with more customers."
+    },
+    "workbooks": 
+            {
+              "workbook":
+              [
+          {"name": "Titanic", "description": "Created a dashboard using Titanic data","externalUrl": "https://public.tableau.com/profile/ashlyn.opgrande#!/vizhome/Titanic_242/WouldyouhavesurvivedtheTitanic"}
+        ]
+    }
+  },
+  {
     "id": "post-2",
     "name": "Week 1-3",
     "description": "My first week in the office",
